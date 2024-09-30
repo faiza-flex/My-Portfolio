@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, black, black ,black, #008080)
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+}
+.navbar h2{
+    color: white;
+    margin: 20px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+}
+#home{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 160px 80px;
+    line-height: 1.6;
+}
+.h1{
+    font-size: 35px;
+}
+.h2{
+    font-size: 50px;
+}
+
+.icons{
+    width: 250px;
+    display: flex;
+    margin:20px;
+    justify-content: space-between;
+}
+
+.icons i{
+    border: 2px solid #008080;
+    border-radius: 15px  0px;
+    height: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px #008080;
+    transition: 0.2;
+
+}
+.icons i:hover{
+    box-shadow: 0px 0px 15px #008080;
+}
+button{
+    width: 120px;
+    height: 45px;
+    background-color: #008080;
+    color: white;
+    border-radius: 20px 0px;
+    margin: 30px;
+    box-shadow: 0px 0px 7px #008080;
+    border: 0px;
+
+}
+button:hover{
+    box-shadow: 0px 0px 15px #008080;
+}
+
+
+.home-box{
+    background-color:#004d4d;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #004d4d;
+    transform: rotate(45deg);
+    border-radius: 20PX;
+    overflow: hidden;
+    box-shadow:10px 0px 20px black;
+    transition: 0.5s;
+}
+.home-box:hover{
+    box-shadow: 0px 250px 200px #008080;
+}
+
+.home-photo{
+    width: 250px;
+    height: 250px;
+    background: url(fiza3-removebg-preview.png);
+    background-size: cover;
+    background-position:center;
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    filter: drop-shadow(20px 0px 25px #008080);
+}
+
+#about{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 170px 80px;
+    line-height: 1.6;
+}
+
+.about-box{
+    background-color:#004d4d;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #004d4d;
+    transform: rotate(45deg);
+    border-radius: 20PX;
+    overflow: hidden;
+    box-shadow:0px 0px 80px #008080;
+    transition: 0.5s;
+    margin-left: 100px;
+
+}
+.about-box:hover{
+    box-shadow: 0px 0px 150px #004d4d;
+}
+.about-photo{
+    width: 250px;
+    height: 250px;
+    background: url(fiza3-removebg-preview.png);
+    background-size: cover;
+    background-position:center;
+    transform: rotate(-45deg);
+    position: relative;
+    bottom: 15px;
+    right: 20px;
+    filter: drop-shadow(20px 0px 25px #008080);
+}
+.about-content{
+    margin-right: 100px;
+}
+.about-content h1{
+    font-size: 50px;
+}
+.about-content h2{
+    font-size: 25px;
+}
+
+
+
+
+
