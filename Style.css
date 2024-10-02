@@ -142,9 +142,6 @@ button:hover{
     right: 20px;
     filter: drop-shadow(20px 0px 25px #008080);
 }
-.about-content{
-    margin-right: 100px;
-}
 .about-content h1{
     font-size: 50px;
 }
