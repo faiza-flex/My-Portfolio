@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+
 body{
     background-image: linear-gradient(to right, black, black ,black, #008080)
 }
@@ -289,4 +296,51 @@ button:hover{
 }
 .content p{
     padding: 1rem;
+}
+
+#contact{
+    margin: 50px;
+}
+
+#contact h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+}
+.c-container{
+    margin-top: 5rem;
+}
+.contact-box input{
+    width: 50%;
+    height: 2.5rem;
+    color: white;
+    margin: 0.2rem;
+    text-align: center;
+    border: 2px solid #004d4d;
+    border-radius: 10px 0px ;
+    background-color: #008080;
+}
+.contact-box input::placeholder{
+    color: rgb(189, 187, 187);
+    text-align: center;
+}
+#msg{
+    color: white;
+    background-color: #008080;
+    width: 90%;
+    height: 10rem;
+    margin: 1rem;
+    resize: none;
+    padding: 0.5rem;
+}
+#msg::placeholder{
+    color: rgb(189, 187, 187);
+    
+}
+.submit{
+    margin-left: 40%;
 }
