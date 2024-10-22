@@ -102,7 +102,7 @@ button:hover{
 .home-photo{
     width: 250px;
     height: 250px;
-    background: url(fiza3-removebg-preview.png);
+    background: url(/images/fiza3-removebg-preview.png);
     background-size: cover;
     background-position:center;
     transform: rotate(-45deg);
@@ -140,7 +140,7 @@ button:hover{
 .about-photo{
     width: 250px;
     height: 250px;
-    background: url(fiza3-removebg-preview.png);
+    background: url(/images/fiza3-removebg-preview.png);
     background-size: cover;
     background-position:center;
     transform: rotate(-45deg);
@@ -249,7 +249,7 @@ button:hover{
     width: 20vw;
     height: 45vh;
     border-radius: 20px 0px;
-    background: url(to-do.webp);
+    background: url(/images/to-do.webp);
     background-size: cover;
     background-position:center;
     box-shadow: 0px 0px 25px #008080;
@@ -265,7 +265,7 @@ button:hover{
     width: 20vw;
     height: 45vh;
     border-radius: 20px 0px;
-    background: url(movei.webp);
+    background: url(/images/movei.webp);
     background-position:center;
     background-size:cover ;
     box-shadow: 0px 0px 25px #008080;
@@ -280,7 +280,7 @@ button:hover{
     width: 20vw;
     height: 45vh;
     border-radius: 20px 0px;
-    background: url(code.jpg);
+    background: url(/images/code.jpg);
     background-size: cover;
     background-position:center;
     box-shadow: 0px 0px 25px #008080;
